@@ -51,7 +51,7 @@ DEALINGS IN THE SOFTWARE.
 #include "numberanimation.h"
 
 InstallScreen::InstallScreen(ViewManager* viewManager)
-    : PageView(viewManager, "Install/Update Infinity")
+    : PageView(viewManager, "(Re)Install Infinity")
     , m_latinText(new TextRenderer(new Font("flash0:/font/ltn0.pgf")))
     , m_opacity(1.0f)
     , m_t(0.f)
@@ -61,7 +61,7 @@ InstallScreen::InstallScreen(ViewManager* viewManager)
     , m_installScreen(new InstallUpdateScreen(viewManager, this))
 {
     std::string install_message =
-        (infGetVersion() < 0) ? "Press X to install Infinity" : "Press X to update Infinity";
+        (infGetVersion() < 0) ? "Press X to install Infinity" : "Press X to reinstall Infinity";
     auto message_length = m_latinText->font()->measureText(install_message);
 
     m_menu.setX(480.f / 2.0f - (message_length + 25.0f) / 2.0f);

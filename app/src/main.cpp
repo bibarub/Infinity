@@ -352,7 +352,7 @@ int main(int argc, char* argv[])
     manager->addView(parallax);
 
     // check if we're doing an install or just configuration
-    auto update_available = infGetVersion() < utility::updateVersion();
+    auto update_available = true;
     auto not_installed = infGetVersion() < 0;
 
     // add smooth transitions
