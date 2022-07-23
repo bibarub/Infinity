@@ -73,8 +73,8 @@ int rebootex_entry(SceKernelBootParam* reboot_param,
         is_recovery = 1;
     }
 
-    // if home button is pressed, we want to boot into OFW
-    if ((ctrl & SYSCON_CTRL_HOME) == SYSCON_CTRL_HOME)
+    // if hold button is pressed, we want to boot into OFW
+    if ((ctrl & SYSCON_CTRL_HOLD) == SYSCON_CTRL_HOLD)
     {
         setCompatibilityInformation(0, 0, 0, 0);
     }

@@ -65,7 +65,7 @@ PageView::PageView(ViewManager* mgr, const std::string& title, bool exitScreen)
     if (exitScreen)
     {
         m_exitScreen = std::make_unique<ExitScreen>(mgr);
-        ButtonTransition* homeTransition = new ButtonTransition(PSP_CTRL_HOME);
+        ButtonTransition* homeTransition = new ButtonTransition(PSP_CTRL_HOLD);
         ButtonTransition* returnTransition = new ButtonTransition(PSP_CTRL_RTRIGGER);
         smoothFadeOutAnimation(this, m_exitScreen.get(), homeTransition);
         smoothFadeOutAnimation(m_exitScreen.get(), this, returnTransition);
