@@ -92,8 +92,8 @@ ConfigScreen::ConfigScreen(ViewManager* viewManager)
         m_libconfigStatus = "Installed modules";
 
         std::string basejson =
-            "[{\"name\":\"PRO "
-            "CFW\",\"author\":\"Coldbird\",\"path\":\"flash0:/kd/procompat.bin\"},{\"name\":\"ME "
+            "[{\"name\":\"PRO(MOD) "
+            "CFW\",\"author\":\"Coldbird / Yoti\",\"path\":\"flash0:/kd/procompat.bin\"},{\"name\":\"(L)ME "
             "CFW\",\"author\":\"neur0n\",\"path\":\"flash0:/kd/mecompat.bin\"}]";
         auto list = parseCompatibilityConfig(basejson);
         m_list.insert(m_list.begin(), list.begin(), list.end());
