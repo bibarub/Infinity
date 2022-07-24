@@ -2,6 +2,38 @@
 
 Infinity is a tool that enables persistent custom firmware on PSP firmware 6.60 and 6.61 for every model. 
 
+### Compiling from source
+
+Get [this](https://github.com/pspdev/pspdev/releases/tag/v20200623) psptoolchain, unpack it to some directory. **!OTHER TOOLCHAINS MAY CAUSE PROBLEMS, YOU HAVE BEEN WARNED!**
+
+Execute [this](https://raw.githubusercontent.com/pspdev/pspdev/master/prepare-debian-ubuntu.sh) script.
+
+Export PSPDEV variable and add PSPDEV to PATH:
+
+`export PSPDEV=/path/to/pspdev`
+
+`export PATH=$PATH:$PSPDEV/bin`
+
+Get required dependencies:
+
+`pip3 install pycryptodome ecdsa`
+
+Clone the repo:
+
+`git clone https://github.com/bibarub/Infinity && cd Infinity`
+
+Run cmake:
+
+`mkdir build && cd build`
+
+`cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/psp-toolchain.cmake ..`
+
+Finally, run make:
+
+`make`
+
+The output files will be in `build/app` directory
+
 ### Installation
 To install infinity you must be on either firmware 6.60 or 6.61. If you have an old version of infinity (< 2.0), then you must uninstall it first by using [Chronoswitch 7 or higher][1].
 
