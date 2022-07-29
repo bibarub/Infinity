@@ -293,6 +293,12 @@ void InstallUpdate::run(void)
         return;
     }
 
+    if (!writeVerifyFile(ARKCOMPAT_EXEC_PATH, files::arkcompat::data))
+    {
+        setState(ERROR_WRITE_ARKCOMPAT);
+        return;
+    }
+
     auto bootloader = getBootloader(sceKernelDevkitVersion());
 
     if (bootloader.empty())

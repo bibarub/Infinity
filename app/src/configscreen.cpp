@@ -94,7 +94,8 @@ ConfigScreen::ConfigScreen(ViewManager* viewManager)
         std::string basejson =
             "[{\"name\":\"PRO(MOD) "
             "CFW\",\"author\":\"Coldbird / Yoti\",\"path\":\"flash0:/kd/procompat.bin\"},{\"name\":\"(L)ME "
-            "CFW\",\"author\":\"neur0n\",\"path\":\"flash0:/kd/mecompat.bin\"}]";
+            "CFW\",\"author\":\"neur0n\",\"path\":\"flash0:/kd/mecompat.bin\"},{\"name\":\"ARK-4 "
+            "CFW\",\"author\":\"Acid_Snake\",\"path\":\"flash0:/kd/arkcompat.bin\"}]";
         auto list = parseCompatibilityConfig(basejson);
         m_list.insert(m_list.begin(), list.begin(), list.end());
 
