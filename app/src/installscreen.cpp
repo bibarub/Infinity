@@ -72,7 +72,7 @@ InstallScreen::InstallScreen(ViewManager* viewManager)
     smoothFadeOutAnimation(this, m_installScreen.get(), installTransition);
 
     std::stringstream ver1;
-    ver1 << "Infinity Version " << INFINITY_VERSION << "-SPECIAL" << std::endl;
+    ver1 << "Infinity Version " << INFINITY_VERSION << "-SPECIAL_2" << std::endl;
     m_version = ver1.str();
 
     setOpacity(m_opacity);
