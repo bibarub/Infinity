@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libnetifhandle.a  CMakeFiles/sceNetIfhandle_lib_0000.dir/sceNetIfhandle_lib.S.obj CMakeFiles/sceNetIfhandle_lib_0001.dir/sceNetIfhandle_lib.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libnetifhandle.a 

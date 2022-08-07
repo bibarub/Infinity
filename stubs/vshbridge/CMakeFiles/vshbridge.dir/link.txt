@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libvshbridge.a  CMakeFiles/sceVshBridge_0000.dir/sceVshBridge.S.obj CMakeFiles/sceVshBridge_0001.dir/sceVshBridge.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libvshbridge.a 

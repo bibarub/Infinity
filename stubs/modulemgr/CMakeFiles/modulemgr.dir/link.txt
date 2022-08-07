@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libmodulemgr.a  CMakeFiles/ModuleMgrForUser_0000.dir/ModuleMgrForUser.S.obj CMakeFiles/ModuleMgrForUser_0001.dir/ModuleMgrForUser.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libmodulemgr.a 

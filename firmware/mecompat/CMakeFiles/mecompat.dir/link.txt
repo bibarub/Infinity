@@ -1,0 +1,1 @@
+/usr/local/pspdev/bin/psp-gcc -I/usr/local/pspdev/psp/sdk/include -Os -Wall -std=gnu99 -G0 -mno-gpopt -fno-pic -fshort-wchar -D_PSP_FW_VERSION=660 -fomit-frame-pointer -Os -DNDEBUG   CMakeFiles/mecompat.dir/src/crt0.S.obj CMakeFiles/mecompat.dir/src/main.c.obj  -o mecompat.bin   -L/home/aaron/projects/Infinity-master/sdk/lib  -nostartfiles -nostdlib -T linkfile.l 

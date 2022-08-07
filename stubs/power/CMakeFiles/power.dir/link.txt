@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libpower.a  CMakeFiles/scePower_0000.dir/scePower.S.obj CMakeFiles/scePower_0001.dir/scePower.S.obj CMakeFiles/scePower_0002.dir/scePower.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libpower.a 

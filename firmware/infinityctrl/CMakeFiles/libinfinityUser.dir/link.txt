@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr liblibinfinityUser.a  CMakeFiles/libinfinityUser_0000.dir/libinfinityUser.S.obj CMakeFiles/libinfinityUser_0001.dir/libinfinityUser.S.obj CMakeFiles/libinfinityUser_0002.dir/libinfinityUser.S.obj CMakeFiles/libinfinityUser_0003.dir/libinfinityUser.S.obj 
+/usr/local/pspdev/bin/psp-ranlib liblibinfinityUser.a 

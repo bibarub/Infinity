@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr liblibinfinityKernel.a  CMakeFiles/libinfinityKernel_0000.dir/libinfinityKernel.S.obj CMakeFiles/libinfinityKernel_0001.dir/libinfinityKernel.S.obj CMakeFiles/libinfinityKernel_0002.dir/libinfinityKernel.S.obj CMakeFiles/libinfinityKernel_0003.dir/libinfinityKernel.S.obj 
+/usr/local/pspdev/bin/psp-ranlib liblibinfinityKernel.a 

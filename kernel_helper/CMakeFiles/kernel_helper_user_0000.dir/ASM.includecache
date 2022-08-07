@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/kernel_helper/kernel_helper_user.S
+pspstub.s
+/home/aaron/projects/Infinity-master/kernel_helper/pspstub.s
+

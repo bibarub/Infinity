@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/firmware/procompat/src/main.c
+pspmacro.h
+-
+pspinit.h
+-
+pspsdk.h
+-
+string.h
+-
+compat_interface.h
+-
+rebootex_conf.h
+/home/aaron/projects/Infinity-master/firmware/procompat/src/rebootex_conf.h
+
+/home/aaron/projects/Infinity-master/firmware/procompat/src/rebootex_conf.h
+
+firmware/compat_interface/include/compat_interface.h
+pspinit.h
+-
+
+sdk/include/pspinit.h
+pspkerneltypes.h
+-
+
+utils/include/pspmacro.h
+pspsdk.h
+-
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/firmware/recovery/src/main.c
+pspiofilemgr.h
+-
+pspmacro.h
+-
+string.h
+-
+
+utils/include/pspmacro.h
+pspsdk.h
+-
+

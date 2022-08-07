@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/firmware/arkcompat/src/crt0.S
+as_reg_compat.h
+/home/aaron/projects/Infinity-master/firmware/arkcompat/src/as_reg_compat.h
+

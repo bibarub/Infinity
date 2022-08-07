@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libmemlmd.a  CMakeFiles/semaphore_0000.dir/semaphore.S.obj CMakeFiles/semaphore_0001.dir/semaphore.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libmemlmd.a 

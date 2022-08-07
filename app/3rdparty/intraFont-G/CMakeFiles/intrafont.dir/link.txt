@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar qc libintrafont.a  CMakeFiles/intrafont.dir/intraFont.c.obj CMakeFiles/intrafont.dir/libccc.c.obj
+/usr/local/pspdev/bin/psp-ranlib libintrafont.a

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/app/src/vram.c
+vram.h
+/home/aaron/projects/Infinity-master/app/src/vram.h
+pspge.h
+-
+pspgu.h
+-
+
+/home/aaron/projects/Infinity-master/app/src/vram.h
+

@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libsyscon.a  CMakeFiles/sceSyscon_driver_0000.dir/sceSyscon_driver.S.obj CMakeFiles/sceSyscon_driver_0001.dir/sceSyscon_driver.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libsyscon.a 

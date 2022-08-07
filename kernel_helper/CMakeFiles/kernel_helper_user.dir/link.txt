@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar cr libkernel_helper_user.a  CMakeFiles/kernel_helper_user_0000.dir/kernel_helper_user.S.obj CMakeFiles/kernel_helper_user_0001.dir/kernel_helper_user.S.obj CMakeFiles/kernel_helper_user_0002.dir/kernel_helper_user.S.obj CMakeFiles/kernel_helper_user_0003.dir/kernel_helper_user.S.obj CMakeFiles/kernel_helper_user_0004.dir/kernel_helper_user.S.obj 
+/usr/local/pspdev/bin/psp-ranlib libkernel_helper_user.a 

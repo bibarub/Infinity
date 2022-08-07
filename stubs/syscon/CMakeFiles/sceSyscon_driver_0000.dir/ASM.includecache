@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/stubs/syscon/sceSyscon_driver.S
+pspstub.s
+/home/aaron/projects/Infinity-master/stubs/syscon/pspstub.s
+

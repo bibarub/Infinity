@@ -1,0 +1,2 @@
+/usr/local/pspdev/bin/psp-ar qc libreboot.a  CMakeFiles/reboot.dir/src/reboot.c.obj CMakeFiles/reboot.dir/src/utility.c.obj ../../libconfig/CMakeFiles/libconfig_static.dir/src/config.c.obj
+/usr/local/pspdev/bin/psp-ranlib libreboot.a

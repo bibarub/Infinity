@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aaron/projects/Infinity-master/libconfig/src/config.c
+config.h
+-
+pspkernel.h
+-
+pspsdk.h
+-
+string.h
+-
+
+/usr/local/pspdev/psp/sdk/include/libc/ctype.h
+
+/usr/local/pspdev/psp/sdk/include/libc/string.h
+stddef.h
+-
+stdarg.h
+-
+ctype.h
+-
+
+libconfig/include/config.h
+pspkerneltypes.h
+-
+psptypes.h
+-
+
